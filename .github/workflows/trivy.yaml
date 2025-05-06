@@ -39,4 +39,4 @@ jobs:
         uses: cloudbees-io/trivy-github-test@main
         with:
           binary-tar-path: output.tar
-          cloudbees-pat: ${{ secrets.CLOUDBEES_QA_PAT }}
+          cloudbees-pat: ${{ secrets.CLOUDBEES_PROD_PAT }}
