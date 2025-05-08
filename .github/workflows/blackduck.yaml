@@ -3,7 +3,7 @@ name: Blackduck scan
 on:
   push:
     branches:
-    - mains
+    - main
 
 jobs:
   blackduck-codescan:
@@ -22,7 +22,7 @@ jobs:
           echo "Step id is ${{ steps.internal.id }}"
 
       - name: Blackduck scan
-        uses: cloudbees-io/blackduck-github-test@main
+        uses: cloudbees-io-gha/black-duck-scan-publish@v1
         with:
           cloudbees-pat: ${{ secrets.CLOUDBEES_PROD_PAT }}
           server-url: ${{ vars.BLACKDUCK_SERVER_URL }}
