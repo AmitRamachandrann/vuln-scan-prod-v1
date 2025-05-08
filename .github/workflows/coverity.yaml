@@ -3,7 +3,7 @@ name: Coverity scan
 on:
   push:
     branches:
-    - mains
+    - main
 
 jobs:
   coverity-codescan:
@@ -22,7 +22,7 @@ jobs:
           echo "Step id is ${{ steps.internal.id }}"
 
       - name: Coverity scan
-        uses: cloudbees-io/coverity-github-test@main
+        uses: cloudbees-io-gha/coverity-scan-publish@v1
         with:
           cloudbees-pat: ${{ secrets.CLOUDBEES_PROD_PAT }}
           server-url: ${{ vars.COVERITY_SERVER_URL }}
