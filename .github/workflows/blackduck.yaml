@@ -3,7 +3,7 @@ name: Blackduck scan internalDemo1
 on:
   push:
     branches:
-    - internalDemo1
+    - internalDemo
 
 jobs:
   blackduck-codescan:
