@@ -3,7 +3,7 @@ name: Trivy Hybrid Scan internalDemo2
 on:
   push:
     branches:
-      - internalDemo
+      - internalDemo2
 
 jobs:
   trivy-hybrid-scan:

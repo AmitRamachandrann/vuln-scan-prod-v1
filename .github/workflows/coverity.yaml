@@ -3,7 +3,7 @@ name: Coverity scan internalDemo2
 on:
   push:
     branches:
-    - internalDemo
+    - internalDemo2
 
 jobs:
   coverity-codescan:
