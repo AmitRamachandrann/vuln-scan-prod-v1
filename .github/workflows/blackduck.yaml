@@ -1,4 +1,4 @@
-name: Blackduck scan
+name: Blackduck scan internalDemo1
 
 on:
   push:
