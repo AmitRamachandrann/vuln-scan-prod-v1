@@ -1,4 +1,4 @@
-name: Coverity scan internalDemo1
+name: Coverity scan internalDemo2
 
 on:
   push:
