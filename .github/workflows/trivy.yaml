@@ -39,4 +39,3 @@ jobs:
         uses: cloudbees-io-gha/trivy-scan-publish@oidc
         with:
           binary-tar-path: output.tar
-          cloudbees-pat: ${{ secrets.CLOUDBEES_PROD_PAT }}
