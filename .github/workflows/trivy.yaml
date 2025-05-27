@@ -39,6 +39,6 @@ jobs:
           tar -tf output.tar
 
       - name: Run Trivy scan
-        uses: cloudbees-io-gha/trivy-scan-publish@oidc
+        uses: cloudbees-io-gha/trivy-scan-publish@v2
         with:
           binary-tar-path: output.tar
