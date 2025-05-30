@@ -3,7 +3,7 @@ name: Trivy Hybrid Scan
 on:
   push:
     branches:
-      - main
+      - oidc-2
 
 jobs:
   trivy-hybrid-scan:

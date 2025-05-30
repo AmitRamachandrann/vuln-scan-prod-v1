@@ -3,7 +3,7 @@ name: Coverity scan
 on:
   push:
     branches:
-    - main
+    - oidc-2
 
 jobs:
   coverity-codescan:
